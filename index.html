@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Aryan Portfolio</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="stylesheet" href="style.css" />
+      <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+         integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script type="text/javascript">
+         (function () {
+           emailjs.init("kYTNmEkAFoO0k-Pm-");
+         })();
+      </script>
+   </head>
+   <body>
+      <nav class="navbar">
+         <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+         </div>
+         <div class="max-width">
+            <div class="logo">
+               <a href="#">My<span> Portfolio</span></a>
+            </div>
+            <ul class="menu">
+               <li><a href="#home" class="menu-btn">Home</a></li>
+               <li><a href="#about" class="menu-btn">About</a></li>
+               <li><a href="#skills" class="menu-btn">Skills</a></li>
+               <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+               <i class="material-icons">menu</i>
+            </div>
+         </div>
+      </nav>
+      <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+      </button>
+      <section class="home" id="home">
+         <div class="max-width">
+            <div class="home-content">
+               <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+               <div class="text-2">Aryan Sharma</div>
+               <div class="text-3">Im a <span class="typing">Full stack developer</span></div>
+            </div>
+         </div>
+      </section>
+      <section class="about" id="about">
+         <div class="max-width">
+            <h2 class="title" data-aos="fade-down" >About Me</h2>
+            <div class="about-content">
+               <div class="column left" data-aos="fade-right" >
+                  <img src="images/img.jpeg" alt="" />
+               </div>
+               <div class="column right" data-aos="fade-up">
+                  <div class="text">
+                     I'm Aryan sharma and Im a <span class="typing-2">Full stack developer</span>
+                  </div>
+                  <p class="paragraph">
+                     Hey there! I'm Aryan, currently pursuing a BTech in CSE at IIIT Sri City. My passion lies in open-source development, and I thrive as a full-stack developer. I enjoy crafting seamless user experiences while diving into the intricacies of backend functionality. In the vibrant open-source community, I find both inspiration and collaboration, continually learning and growing in the ever-evolving tech landscape.
+                  </p>
+                  <a href="https://drive.google.com/drive/folders/1xzj_Wwr1zsayfdfU0aaZMqKeZf5yrYpz">Download
+                  Resume</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="skills" id="skills">
+         <div class="max-width" data-aos="fade-down">
+         <h2 class="title" data-aos="fade-up">My Skills</h2>
+         <div class="skills-content">
+         <div class="column left">
+            <div class="text">
+               My creative skills & experiences.
+            </div>
+            <p class="paragraph-2">
+               Beyond my technical expertise, my creative flair shines through in every project I undertake. Whether designing user interfaces, devising innovative solutions, or coding with narrative finesse, I thrive on blending analytical thinking with imaginative vision. From inception to delivery, I infuse creativity into every endeavor, constantly pushing boundaries and redefining possibilities.
+            </p>
+            <a href="#about">Read More</a>
+         </div>
+         <div class="column right skill-box">
+         <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+         </div>
+         <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+         </div>
+      </section>
+      <section class="contact" id="contact">
+         <div class="max-width">
+            <h2 class="title" data-aos="fade-down">Contact Me</h2>
+            <div class="contact-content">
+               <div class="column left" data-aos="flip-left">
+                  <div class="text">Let's Get in Touch</div>
+                  <p class="paragraph-3">I'm always eager to connect with fellow enthusiasts, collaborators, and mentors in the tech community. Whether you're looking to discuss projects, share insights, or explore potential collaborations, I'm just a message away. 
+                  </p>
+                  <div class="icons">
+                     <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                           <div class="head">Name</div>
+                           <div class="sub-title">Aryan Sharma</div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                           <div class="head">Address</div>
+                           <div class="sub-title">Ghaziabad,India</div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                           <div class="head">Email</div>
+                           <div class="sub-title">aryan.s22@iiits.in</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="column right" data-aos="flip-right">
+                  <div class="text">
+                     Message Me
+                  </div>
+                  <form action="#Contact">
+                     <div class="fields">
+                        <div class="field name">
+                           <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+                        </div>
+                        <div class="field email">
+                           <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+                        </div>
+                     </div>
+                     <div class="field">
+                        <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+                     </div>
+                     <div class="field textarea">
+                        <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+                     </div>
+                     <div class="button">
+                        <button onclick='sendMail()' type="submit">Send Message</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="text-center">
+            <span>
+               Created By <a href="#">Aryan Sharma</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+               <div>
+                  <a href="https://www.linkedin.com/in/myselfaryan/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/myselfaryan"><i class="fab fa-github"></i></a>
+               </div>
+            </span>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+      <script>
+         window.onscroll = function() {myFunction()};
+         
+         function myFunction() {
+           var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+           var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+           var scrolled = (winScroll / height) * 100;
+           document.getElementById("myBar").style.width = scrolled + "%";
+         }
+      </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+   </body>
+</html>
